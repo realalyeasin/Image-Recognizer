@@ -95,7 +95,7 @@ class _ImageRecognitionState extends State<ImageRecognition> {
                             ? Container()
                             : _results != null
                                 ? Text(
-                                    _results![0]["label"],
+                                    _results![0]["labels"],
                                   )
                                 : Container(
                                     child: Text(""),
